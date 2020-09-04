@@ -1,0 +1,182 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english, swedish]{babel}
+\usepackage[binary-units]{siunitx}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[style=alphabetic]{biblatex}
+\addbibresource{literature.bib}
+\usepackage{cleveref}
+\usepackage{listings}
+
+\title{First LaTeX}
+\author{Ellen Waara Ankarstrand}
+\date{September 2020}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\section{Introduction}
+This is an introduction. 
+\cite{forouzanfar2016global}
+
+\section{Second Section} 
+This is the second section. Pretty impressive right? 
+
+\section{Third Section} 
+This is some \textit{italic text.} 
+
+\section{Kittens}
+
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=10cm]{cute-kitten-animal-pics-cats-image-gallery-https3A2F2Fi.ytimg_.com2Fvi2F6FQsIfE7sZM2Fmaxresdefault}
+    \caption{Kitten.}
+    \label{fig:kitten}
+\end{figure}
+
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=10cm]{unnamed.jpg}
+    \caption{Yawning kitten.}
+    \label{fig:kitten2}
+\end{figure}
+
+\section{Embarrassing History}
+\begin{lstlisting} {language = Bash}
+    1  man man
+    2  man pwd
+    3  ls
+    4  fs quota
+    5  du -sh
+    6  man man
+    7  ssh student-shell.sys.kth.se
+    8  ssh student-shell.sys.kth.se
+    9  pwd
+   10  ssh student-shell.sys.kth.se
+   11  ls
+   12  ssh student-shell.sys.kth.se
+   13  ssh student-shell.sys.kth.se
+   14  ssh student-shell.sys.kth.se
+   15  ssh student-shell.sys.kth.se
+   16  ssh student-shell.sys.kth.se
+   17  sshh student-shell.sys.kth.se
+   18  ssh student-shell.sys.kth.se
+   19  ssh ellenank@student-shell.sys.kth.se
+   20  ssh student-shell.sys.kth.se
+   21  ssh ellenank@student-shell.sys.kth.se
+   22  ssh ellenank@student-shell.sys.kth.se
+   23  ls
+   24  ssh ellenank@student-shell.sys.kth.se
+   25  ssh ellenank@student-shell.sys.kth.se
+   26  ssh ellenank@student-shell.sys.kth.se
+   27  ssh ellenank@student-shell.sys.kth.se
+   28  which atom
+   29  ssh ellenank@student-shell.sys.kth.se
+   30  git config --global core.editor "atom --wait"
+   31  atom my-file.md
+   32  git status
+   33  $ ssh-keygen -t rsa -b 4096 -C 'ellenank@kt.se'
+   34  ssh-keygen -t rsa -b 4096 -C 'ellenank@kt.se'
+   35  ls ~/.ssh
+   36  ssh-keygen -t rsa -b 4096 -C 'ellenank@kth.se'
+   37  ls ~/.ssh
+   38  cat ~/.ssh/id_rsa.pub
+   39  eval $(sshh-agent -s)
+   40  eval $(ssh-agent -s)
+   41  ssh-add ~/.ssh/id_rsa
+   42  git config --global core.editor "atom --wait"
+   43  git clone git@gits-15.sys.kth.se:ellenank/datintro20-ellenank.git
+   44  git clone git@gits-15.sys.kth.se:ellenank/datintro20-ellenank.git
+   45  atom my-file.md
+   46  git status
+   47  ls 
+   48  ls datintro20-ellenank
+   49  cd datintro20-ellenank
+   50  atom my-file.md
+   51  git add my-file.md
+   52  git status
+   53  git commit -a
+   54  git push
+   55  git status
+   56  git commit -a
+   57  git push
+   58  git clone git@gits-15.sys.kth.se:datintro20/datintro20-ellenank.git
+   59  ls
+   60  cd datintro20-ellenank
+   61  cd ..
+   62  cd ..
+   63  rmdir datintro20-ellenank
+   64  cd datintro20-ellenank
+   65  which atom
+   66  ssh ellenank@student-shell.sys.kth.se
+   67  cd datintro20-ellenank
+   68  ls
+   69  rm my-file.md
+   70  rm datintro20-ellenank
+   71  rmdir datintro20-ellenank
+   72  cd datintro20-ellenank
+   73  ls
+   74  rm README.md
+   75  ls
+   76  cd ..
+   77  ls
+   78  rmdir datintro20-ellenank
+   79  rm README.md
+   80  ls
+   81  cd datintro20-ellenank
+   82  ls
+   83  rmdir datintro20-ellenank
+   84  cd ..
+   85  rm datintro20-ellenank
+   86  rmdir datintro20-ellenank
+   87  cd ..
+   88  rmdir datintro20-ellenank
+   89  rm -rf datintro20-ellenank
+   90  rmdir datintro20-ellenank
+   91  ls
+   92  cd datintro20-ellenank
+   93  git clone git@gits-15.sys.kth.se:ellenank/First-repo.git
+   94  rm -rf First-repo
+   95  rmdir First-repo
+   96  git clone git@gits-15.sys.kth.se:datintro20/datintro20-ellenank.git
+   97  ls
+   98  cd datintro20-ellenank
+   99  atmon my-file.md
+  100  atom my-file.md
+  101  git status
+  102  git add my-file.md
+  103  git add my-file.md
+  104  git status
+  105  git commit -a
+  106  git push
+  107  ipython
+  108  python 3
+  109  python
+  110  python3 kubsumma.py
+  111  python3 kubsumma.py
+  112  python3 kubsumma.py
+  113  python3 kubsumma.py
+  114  pwd
+  115  ls
+  116  ls PycharmProjects
+  117  cd pythonProject
+  118  cd pythonProject
+  119  open pythonProject
+  120  ls 
+  121  cd PycharmProjects
+  122  ls 
+  123  cd pythonProject
+  124  pwd
+  125  ls
+  126  python3 kubsumma.py
+  127  history
+\end{lstlisting}
+
+\printbibliography
+
+\end{document}
